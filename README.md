@@ -107,7 +107,10 @@ Visit the live website: [Abishek Jayanth Portfolio](https://your-portfolio-url.c
 
 ## 📱 Screenshots
 
-_Add screenshots of your portfolio here_
+<img width="1512" height="945" alt="Screenshot 2025-08-24 at 1 47 54 PM" src="https://github.com/user-attachments/assets/77d79d72-0244-4ae4-81ce-75e7940c2dc5" />
+<img width="1512" height="945" alt="Screenshot 2025-08-24 at 1 48 02 PM" src="https://github.com/user-attachments/assets/e350bfa0-c71b-4fba-aac6-92ba05c28d1a" />
+<img width="1536" height="973" alt="Screenshot 2025-08-24 at 1 48 06 PM" src="https://github.com/user-attachments/assets/a2df3219-7dcd-4ba8-9d16-a2c67029c0a3" />
+<img width="1512" height="945" alt="Screenshot 2025-08-24 at 1 50 43 PM" src="https://github.com/user-attachments/assets/4a4fbaa1-8b5d-4d29-9063-3d830973a1ad" />
 
 ## 🔧 Customization
 
