@@ -304,6 +304,7 @@ section {
 }
 
 .contact form .input-box input,
+.contact form .input-box select,
 .contact form textarea {
   width: 100%;
   font-size: 1.6rem;
@@ -316,7 +317,16 @@ section {
   resize: none;
 }
 
-.contact form .input-box input {
+.contact form .input-box select {
+  color: gray;
+}
+
+.contact form .input-box select:valid {
+  color: var(--text-color);
+}
+
+.contact form .input-box input,
+.contact form .input-box select {
   width: 49%;
   margin: 0.7rem 0.35rem;
 }

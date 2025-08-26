@@ -121,14 +121,30 @@
             <form method="POST" id="contact-form">
                 <input type="hidden" name="access_key" value="e43c1583-9f6e-410a-8e93-351bc84b2062">
                 <div class="input-box">
-                    <input type="text" name="name" placeholder="Full Name" />
-                    <input type="email" name="email" placeholder="Email Address" />
+                    <input type="text" name="name" placeholder="Full Name" required/>
+                    <input type="email" name="email" placeholder="Email Address" required/>
                 </div>
                 <div class="input-box">
-                    <input type="number" name="phone" placeholder="Phone Number" />
-                    <input type="text" name="subject" placeholder="Email Subject" />
+                    <input type="number" name="phone" placeholder="Phone Number" required/>
+                    <input type="text" name="subject" placeholder="Email Subject" required/>
                 </div>
-                <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <div class="input-box">
+                    <select id="reason" name="reason" required>
+                        <option value="" disabled selected hidden class="placeholder-option">Reason for Contact</option>
+                        <option value="job">Job</option>
+                        <option value="freelance">Freelance Project</option>
+                        <option value="job">Collaboration</option>
+                        <option value="job">Other</option>
+                    </select>
+                    <input list="projects" name="project-type" id="project-type" placeholder="Reason for Contact e.g. Mobile App">
+                    <datalist id="projects">
+                        <option value="Portfolio Website">
+                        <option value="Web Application">
+                        <option value="Mobile App">
+                        <option value="Dashboard">
+                    </datalist>
+                </div>
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
                 <h3 id="result"></h3>
                 <input type="submit" value="Send Message" class="btn" />
             </form>

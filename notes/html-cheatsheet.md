@@ -62,6 +62,15 @@
     - `email` → Email input.
     - `submit` → Submit button.
   - **textarea** → Multi-line text input (uses `cols`, `rows`).
+  - **select & option** → Dropdown with predefined options.
+    - `selected` → Marks the default option.
+    - `disabled` + `required` → Makes an option invalid (often used for placeholder/dummy values).
+    - `hidden` → Hides the option from the list.
+  - **optgroup** → Groups options with a `label` attribute as a group heading.
+  - **datalist** → Provides autocomplete suggestions for an input field.
+    - Connect input using `list` attribute with the datalist `id`.
+  - **fieldset** → Groups related fields together.
+  - **legend** → Defines a caption/heading for a fieldset.
 
 ## Scripts
 
